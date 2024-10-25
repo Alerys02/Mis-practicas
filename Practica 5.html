@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <title>Practica 5</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alejandro Reyes">
+    <meta name="description" content="Practicas y ejercicios">
+    <meta name="generator" content="Practicas">
+ </head>   
+
+ <body>
+    <h1>Formulario de registro de Alumnos de Nuevo Ingreso</h1>
+    <form>
+        <p>Nombre Completo <input type="text"> </p>
+        <p>Correo Electronico <input type="text"> </p>
+        <p>Contraseña <input type="password" name="contraseña"> </p>
+
+            <p>Genero</p>
+            <input type="radio" value="hombre"/> Hombre<br>
+            <input type="radio" value="mujer"/> Mujer<br>
+            <input type="radio" value="otro"/> Otro<br>
+
+            <p>Intereses</p>
+            <input type="checkbox" name="deportes"> Deportes<br>
+            <input type="checkbox" name="Musica"> Musica<br>
+            <input type="checkbox" name="Tecnologia"> Tecnologia<br>
+
+            <p>Carrera a la que aspiras <select>
+                <option selected="selected">
+                    Ingenieria en Sistemas Computacionales
+                </option>
+                <option>
+                    Ingenieria Civil
+                </option>
+                <option>
+                    Arquitectura
+                </option>
+                <option>
+                    Ingenieria en Mecatronica
+                </option>
+            </select>
+
+           <p> Cometarios adicionales.. <br>
+            <textarea rows="10" cols="50" name="comentarios"></textarea>
+           </p> 
+           <input type="submit" value="Enviar formulario"/>
+           <input type="reset" value="Restablecer formulario"/>
+
+    </form>
+ </body>
