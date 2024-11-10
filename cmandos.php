@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="es">
+  <body>
 <?php
 Function Mensaje (){
 echo "<b>";
@@ -21,3 +24,5 @@ echo "La variable a es $a <br>";
 echo "La variable b es $b <br>";
 
 ?>
+  </body>
+</html>
